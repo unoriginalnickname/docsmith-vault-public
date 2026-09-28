@@ -69,6 +69,18 @@ five agent definitions, and 26 small Python command-line tools with their own te
 One agent gathers a source, one writes the entry, and three review a finished document
 from different angles (readability, format, facts) without seeing each other's findings.
 
+## Tech stack
+
+| | |
+|---|---|
+| **Python 3.10+, uv** | The 26 command-line tools |
+| **Claude Code** | The agents and the automated research loop |
+| **Docker (dev container) with a firewall** | Isolation for research sessions |
+| **Git hooks** | A leak check on every commit |
+| **pytest, GitHub Actions** | 444 tests for the tools |
+| **trafilatura, pypdf** | Exact text out of web pages and PDFs, no model involved |
+| **Markdown with YAML frontmatter** | The corpus format; readable in Obsidian |
+
 ## Running it in Docker
 
 An AI session that reads web pages can be tricked by text on a page. Run directly on a
