@@ -117,7 +117,7 @@ Three projects are attempts at the same goal, with different architectures:
 
 - [docsmith](https://github.com/unoriginalnickname/docsmith): the oldest. A Blazor app over
   a Python pipeline that audits a project's docs against its source code and proposes fixes
-  for a human to approve.
+  for a human to approve. Runs on a local model (Ollama) or a hosted one.
 - [fresh-eyes-reader](https://github.com/unoriginalnickname/fresh-eyes-reader): AI agents
   that write and review documentation on a subject, beginner to advanced.
 - **docsmith-vault**: this one, and the one that works end to end today.
