@@ -107,8 +107,9 @@ first in an up-front interview.
    should check other people's documents: look up each claim in the corpus and mark it
    backed, contradicted or missing, with how many independent sources stand behind it.
 3. **A language reviewer**, checking wording and terms across several documents.
-4. **Close the remaining security gaps**, above all that a session run outside the
-   container still has full access.
+4. **Close the remaining security gaps.** The container only protects the machine when the
+   AI runs inside it. Started directly on the machine, it can still reach everything, so
+   the aim is that research never runs outside the container.
 
 ## Related
 
