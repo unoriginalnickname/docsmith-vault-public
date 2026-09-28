@@ -100,8 +100,9 @@ first in an up-front interview.
 
 ## Where it's going
 
-1. **Run the loop for real and make it cheaper**, comparing models on cost per finished
-   task.
+1. **Make the research loop cheaper.** It has run eight real passes on one subject, which
+   isn't finished yet, all on the most expensive model. Next is comparing a cheaper model
+   on cost per finished task.
 2. **Maintenance, the other half of the goal.** Today it builds documentation. Next, it
    should check other people's documents: look up each claim in the corpus and mark it
    backed, contradicted or missing, with how many independent sources stand behind it.
